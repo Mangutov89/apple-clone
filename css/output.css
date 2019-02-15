@@ -47,13 +47,19 @@ body {
   flex-wrap: wrap; }
 
 .light-subcontent2 {
-  width: 45%;
+  text-align: center;
+  width: 48%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid lightgray; }
+
+.footer-content {
+  width: 70%;
   margin-left: auto;
   margin-right: auto; }
 
 .footer {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto; }
+  background-color: lightgray;
+  width: 100%; }
 
 /*# sourceMappingURL=output.css.map */
