@@ -39,3 +39,31 @@ body {
   background-color: black;
   color: white;
 }
+
+.lightcontent {
+  display: flex;
+}
+
+.light-content1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.light-content2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.light-subcontent2 {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
