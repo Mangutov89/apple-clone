@@ -7,18 +7,19 @@ body {
   width: 100%;
 }
 
+@import "mixins";
+
 .nav1 {
     background-color:rgba(45,45,45,0.98);
     width: 100%;
 }
 
 .navcontents {
+  @include margin;
   display: flex;
   flex-direction: row;
   width: 70%;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
   height: 45px;
   align-items: center;
 }
@@ -76,10 +77,9 @@ body {
 }
 
 .light-subcontent2 {
+  @include margin;
   text-align: center;
   width: 48%;
-  margin-left: auto;
-  margin-right: auto;
   border: 2px solid lightgray;
 }
 
@@ -89,9 +89,8 @@ body {
 }
 
 .footer-content {
+  @include margin;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer {
