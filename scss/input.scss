@@ -29,6 +29,11 @@ body {
   font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+.nav1content>img {
+  height: 20px;
+  width: auto;
+}
+
 // .limited>p {
 //   border: 1px solid white;
 //   border-radius: 25%;
@@ -45,6 +50,14 @@ body {
   background-color: black;
   color: white;
 }
+
+.content2>img,
+.content3>img,
+.light-subcontent1>img {
+  width:100%;
+  height: auto;
+}
+
 
 .lightcontent {
   display: flex;
@@ -70,6 +83,11 @@ body {
   border: 2px solid lightgray;
 }
 
+.light-subcon>img {
+  width: 100%;
+  height: auto;
+}
+
 .footer-content {
   width: 70%;
   margin-left: auto;
@@ -79,4 +97,10 @@ body {
 .footer {
   background-color: lightgray;
   width: 100%
+}
+
+@media screen and (max-width: 760px) {
+  .light-subcontent2 {
+    width: 100%;
+  }
 }

@@ -23,6 +23,10 @@ body {
   color: white;
   font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; }
 
+.nav1content > img {
+  height: 20px;
+  width: auto; }
+
 .content1 {
   padding: 20px 0; }
 
@@ -32,6 +36,12 @@ body {
   text-align: center;
   background-color: black;
   color: white; }
+
+.content2 > img,
+.content3 > img,
+.light-subcontent1 > img {
+  width: 100%;
+  height: auto; }
 
 .lightcontent {
   display: flex; }
@@ -53,6 +63,10 @@ body {
   margin-right: auto;
   border: 2px solid lightgray; }
 
+.light-subcon > img {
+  width: 100%;
+  height: auto; }
+
 .footer-content {
   width: 70%;
   margin-left: auto;
@@ -61,5 +75,9 @@ body {
 .footer {
   background-color: lightgray;
   width: 100%; }
+
+@media screen and (max-width: 760px) {
+  .light-subcontent2 {
+    width: 100%; } }
 
 /*# sourceMappingURL=output.css.map */
